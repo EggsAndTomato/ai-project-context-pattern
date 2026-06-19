@@ -32,6 +32,7 @@
 | `wiki/decisions/004-flat-four-dirs-no-tree.md` | 扁平 + 4 固定子目录，禁止三级目录与自建顶级目录 |
 | `wiki/decisions/005-no-raw-layer.md` | 不设 raw 层 |
 | `wiki/decisions/006-on-demand-session-archiving.md` | 会话按需、总结后归档，非每次必存 |
+| `wiki/decisions/007-log-trigger-split.md` | 拆分 index/log 触发：log 覆盖所有结构/意图变更（非仅新建文件） |
 
 ### bugs
 | 文件 | 摘要 |
