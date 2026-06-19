@@ -6,7 +6,8 @@
 ## 维护规则（CRITICAL）
 
 - 回答任何实质问题前：你的**下一个动作**是完整阅读下方 index，再决定读哪些 wiki 页。
-- 在 wiki/ 下**创建任何新文件后**：你的**下一个动作**是在下方 index 追加一行，并在 `log.md` 追加一条。
+- 在 wiki/ 下**新增页面后**：你的**下一个动作**是在下方 index 追加一行（index 仅此情况追加）。
+- 发生**结构/意图层面的变更后**（新建 / 删改 / 改名文件、根级文档修订、核心术语或决策调整）：你的**下一个动作**是在 `log.md` 追加一条（最新在上，记"变了什么 + 为什么"）。
 - wiki/ 下**只允许** 4 个子目录（architecture/decisions/bugs/sessions）或根级 loose 文件；**禁止新建其他子目录**。
 - 你**只能修改本文件的 index 区**；本文件其余区域（规则、定位）禁止修改。
 - **禁止归档原始会话**；session 归档前必须先总结。
@@ -25,7 +26,7 @@
 ### decisions
 | 文件 | 摘要 |
 |---|---|
-| `wiki/decisions/001-compile-once-anti-rag.md` | 核心哲学：编译一次+持续维护（反 RAG），而非全量加载/每次重算 |
+| `wiki/decisions/001-compile-once-anti-rag.md` | 核心哲学：增量沉淀+持续维护（反 RAG），而非全量加载/每次重算 |
 | `wiki/decisions/002-index-in-agents-md.md` | index 永驻 AGENTS.md，不外置、不进 opencode.json instructions |
 | `wiki/decisions/003-critical-tool-action-lint.md` | 维护规则用 CRITICAL+工具动作级，Lint 必需（应对遵循度问题） |
 | `wiki/decisions/004-flat-four-dirs-no-tree.md` | 扁平 + 4 固定子目录，禁止三级目录与自建顶级目录 |
