@@ -24,5 +24,8 @@
 ## 这个仓库本身就是实例
 本 repo 用自己的方法论维护自身的知识库（`AGENTS.md` + `wiki/`）——即 dogfooding，可直接参考它长什么样。
 
+## 灵感来源
+灵感来自 Andrej Karpathy 的 [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)——让 LLM 增量构建并维护一个持久 wiki，而非每次从原始文档重新检索（RAG）。本仓库把这套理念应用到了**项目**上下文的组织上。
+
 ---
 方法论全文：[`ai-project-context-pattern.md`](ai-project-context-pattern.md)
