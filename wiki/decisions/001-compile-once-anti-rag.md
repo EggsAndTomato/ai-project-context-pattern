@@ -19,3 +19,8 @@ AI 协作组织项目上下文有两种典型路径：
 ## 后果
 - 需要一套维护纪律（见 ADR-002 / ADR-003）保证 wiki 不腐化。
 - 不适合"一次性、不积累"的场景——那种用完即弃更适合 RAG 或全量加载。
+
+## 相关
+- 维护纪律靠：[ADR-002](002-index-in-agents-md.md)、[ADR-003](003-critical-tool-action-lint.md)
+- 互链落地：[ADR-008](008-interlink-with-markdown-links.md)
+- 架构总览：[overview](../architecture/overview.md)

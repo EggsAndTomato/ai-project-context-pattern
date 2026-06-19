@@ -17,3 +17,7 @@
 ## 后果
 - `sessions/` 增长可控。
 - 需要自律 / 提示机制保证"重要会话"不被漏归档（Lint 可补：检测"被频繁引用却无 session / ADR 记录"的话题）。
+
+## 相关
+- Lint 自愈：[ADR-003](003-critical-tool-action-lint.md)
+- 设计会话脉络：[SESSION-001](../sessions/001-methodology-design.md)

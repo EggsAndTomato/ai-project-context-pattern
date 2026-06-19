@@ -18,3 +18,8 @@
 ## 下一步
 - 拟用 opencode slash command（类 `/init`）做应用形态，便于新项目一键 bootstrap（待定）。
 - 在真实项目试用，回收反馈迭代方法论与模板。
+
+## 相关
+- 涉及决策：[ADR-002](../decisions/002-index-in-agents-md.md)、[ADR-003](../decisions/003-critical-tool-action-lint.md)、[ADR-004](../decisions/004-flat-four-dirs-no-tree.md)、[ADR-005](../decisions/005-no-raw-layer.md)、[ADR-006](../decisions/006-on-demand-session-archiving.md)
+- 方案对比证据：[A/B 测试发现](../ab-test-findings.md)
+- 方法论全文：[`ai-project-context-pattern.md`](../../ai-project-context-pattern.md)

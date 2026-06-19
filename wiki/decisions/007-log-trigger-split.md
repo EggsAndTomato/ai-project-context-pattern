@@ -25,3 +25,8 @@
 - log 会比以前更频繁地写（任何结构/意图变更都记）——符合其定位，且单条成本极低。
 - "结构/意图层面"仍是意图判读词，边界靠 `log.md` 头部已声明的"琐碎代码修订走 git"这条互补规则界定：纯代码小改不记，结构性改动才记。
 - 需在 `AGENTS.md` 与方法论文档同步维护这条规则（已同步）。
+
+## 相关
+- 精确性前提：[ADR-003](003-critical-tool-action-lint.md)
+- index 归属：[ADR-002](002-index-in-agents-md.md)
+- 后续互链规则：[ADR-008](008-interlink-with-markdown-links.md)

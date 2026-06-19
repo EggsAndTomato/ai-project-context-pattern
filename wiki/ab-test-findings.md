@@ -14,3 +14,7 @@
 
 ## 结论
 两种方案互补；本项目选择只保留知识库式，因为它在"知识长期积累 + 维护健壮性"上更优，且通过 index 永驻 + 扁平结构把成本控制在可接受范围。
+
+## 相关
+- 支撑：[ADR-003：CRITICAL+Lint](decisions/003-critical-tool-action-lint.md)
+- 设计会话：[SESSION-001](sessions/001-methodology-design.md)

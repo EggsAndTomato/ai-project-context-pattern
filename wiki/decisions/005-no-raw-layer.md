@@ -16,3 +16,7 @@
 ## 后果
 - 参考资料直接作为 loose 页进 `wiki/`，按需建。
 - 若未来某项目真有大量不可变源（如研究项目的论文集），可另立项目考虑 raw——本方法论默认不设。
+
+## 相关
+- 结构总览：[overview](../architecture/overview.md)
+- loose 与固定类目：[ADR-004](004-flat-four-dirs-no-tree.md)

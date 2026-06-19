@@ -20,3 +20,8 @@ wiki 内部如何组织？候选：
 ## 后果
 - 4 类目覆盖架构 / 决策 / bug / 会话；其余概念 / how-to 放 loose（如本项目的 `../ab-test-findings.md`）。
 - 若真出现第 5 类高频产物，再讨论是否加入固定集（目前不预期）。
+
+## 相关
+- 结构总览：[overview](../architecture/overview.md)
+- loose 页示例：[ab-test-findings](../ab-test-findings.md)
+- 互链依赖扁平结构：[ADR-008](008-interlink-with-markdown-links.md)

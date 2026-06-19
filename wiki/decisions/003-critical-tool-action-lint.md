@@ -17,4 +17,9 @@
 ## 后果
 - AGENTS.md 顶部要保留醒目的 CRITICAL 区。
 - Lint 是周期性开销，但换来自愈；不做 Lint = 反模式（方法论反模式 #7）。
-- A/B 测试中观察到：Wiki 代理在改动后**主动**跑了一次 Lint（无人提示），验证此设计有效（见 `../../ab-test-findings.md`）。
+- A/B 测试中观察到：Wiki 代理在改动后**主动**跑了一次 Lint（无人提示），验证此设计有效（见 [A/B 测试发现](../ab-test-findings.md)）。
+
+## 相关
+- 证据：[A/B 测试发现](../ab-test-findings.md)
+- 规则精确性前提：[ADR-007](007-log-trigger-split.md)、[ADR-008](008-interlink-with-markdown-links.md)
+- 架构总览：[overview](../architecture/overview.md)

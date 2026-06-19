@@ -8,6 +8,7 @@
 - 回答任何实质问题前：你的**下一个动作**是完整阅读下方 index，再决定读哪些 wiki 页。
 - 在 wiki/ 下**新增页面后**：你的**下一个动作**是在下方 index 追加一行（index 仅此情况追加）。
 - 发生**结构/意图层面的变更后**（新建 / 删改 / 改名文件、根级文档修订、核心术语或决策调整）：你的**下一个动作**是在 `log.md` 追加一条（最新在上，记"变了什么 + 为什么"）。
+- 新建 / 更新 wiki 页后：你的**下一个动作**是在该页 `## 相关` 段为每个结构相关页补一条 markdown 链接，并在被链接页的 `## 相关` 段补反向链接。
 - wiki/ 下**只允许** 4 个子目录（architecture/decisions/bugs/sessions）或根级 loose 文件；**禁止新建其他子目录**。
 - 你**只能修改本文件的 index 区**；本文件其余区域（规则、定位）禁止修改。
 - **禁止归档原始会话**；session 归档前必须先总结。
@@ -33,6 +34,7 @@
 | `wiki/decisions/005-no-raw-layer.md` | 不设 raw 层 |
 | `wiki/decisions/006-on-demand-session-archiving.md` | 会话按需、总结后归档，非每次必存 |
 | `wiki/decisions/007-log-trigger-split.md` | 拆分 index/log 触发：log 覆盖所有结构/意图变更（非仅新建文件） |
+| `wiki/decisions/008-interlink-with-markdown-links.md` | 文档间用 markdown 链接互链（由 LLM 维护），非 wikilink |
 
 ### bugs
 | 文件 | 摘要 |
