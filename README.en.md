@@ -26,7 +26,7 @@ project root/
 Paste the prompt below to your AI (works with opencode / Claude Code / Cursor / Aider). It fetches the methodology doc and sets up a knowledge base for your project **in English**:
 
 ```
-Set up an AI-maintained knowledge base for this project using the "AI Project Context Pattern". Generate all knowledge-base artifacts (AGENTS.md, wiki pages, templates) in English.
+Set up an AI-maintained knowledge base for this project using the "AI Project Context Pattern".
 
 Doc URL (fetch and read in full, then follow its own process):
 https://raw.githubusercontent.com/EggsAndTomato/ai-project-context-pattern/refs/heads/master/ai-project-context-pattern.md
@@ -34,7 +34,7 @@ https://raw.githubusercontent.com/EggsAndTomato/ai-project-context-pattern/refs/
 Ask me about anything unclear first; don't start writing until confirmed.
 ```
 
-> The methodology doc itself is in Chinese, but it's written for the AI to read — your prompt asks for English output, so the generated knowledge base will be in English (tested: clean English, no Chinese leakage).
+> The methodology doc is in Chinese, but it's written for the AI to read and instructs the AI to generate in **your language** — since this prompt is in English, your knowledge base will be in English.
 
 ## This repo is itself an example
 This repo maintains its own knowledge base with its own methodology (`AGENTS.md` + `wiki/`) — i.e., dogfooding; feel free to use it as a reference.
