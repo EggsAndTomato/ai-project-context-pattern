@@ -2,6 +2,7 @@
 
 > 结构 / 意图层面的"变了什么 + 为什么"。最新在上。琐碎代码修订走 git。
 
+- 2026-06-20 — 改写 README 顶部 tagline 与「是什么」：按 vibe coding 场景先行 + 口语化重述（与 GitHub description 定位一致），保留两层渐进式披露与反 RAG 复利要点。
 - 2026-06-20 — 升级 README「怎么用」：新增可复制即用的初始提示词（含文档 GitHub raw 链接），新项目用户无需自己组织 bootstrap 指令；raw 链接绕开 Gitea 自签证书导致 AI 工具无法抓取的问题。
 - 2026-06-20 — 新增 `wiki/decisions/008-interlink-with-markdown-links.md`：定 markdown 链接为互链格式、由 LLM 维护（ADR-008）。
 - 2026-06-20 — 落地文档间互链：方法论文档加"互链约定"段 + 4 模板补 `## 相关` + §五 Lint 加悬空/单向链接检查 + 新增 CRITICAL 互链工具动作规则（AGENTS.md 与方法论文档模板两处）。
