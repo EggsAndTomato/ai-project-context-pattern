@@ -21,6 +21,24 @@
 ## 怎么用
 把 [`ai-project-context-pattern.md`](ai-project-context-pattern.md) 给你的 AI（opencode / Claude Code 等），让它按文中的 Bootstrap 流程，给你的项目搭一套同样的知识库。
 
+最省事的方式：复制下面这段提示词丢给你的 AI（工具无关，opencode / Claude Code / Cursor / Aider 皆可），它会抓取文档并执行 bootstrap：
+
+```
+请用《AI 项目上下文模式》给当前项目搭一个 AI 自维护的知识库。
+
+文档地址（先抓取并完整阅读）：
+https://raw.githubusercontent.com/EggsAndTomato/ai-project-context-pattern/refs/heads/master/ai-project-context-pattern.md
+
+然后按文档「第八节 Bootstrap 流程」执行：
+1. 重点看：第三节 AGENTS.md 结构、第八节 Bootstrap、第九节检查清单。
+2. 先摸底当前代码库；定位 / 技术栈 / 已有架构与决策里不清楚的点，列清单问我——确认后再动手，别急着建文件。
+3. 在项目根建：AGENTS.md（CRITICAL 维护规则 + 1 行定位 + index 骨架）、log.md（空骨架）、wiki/ 下 4 个固定空子目录（architecture/decisions/bugs/sessions）。
+4. 至少写 wiki/architecture/overview.md，并登记进 index。
+5. 用第九节检查清单自检。
+
+先回我：你读到的要点 + 要问我的定位问题。确认后再落盘。
+```
+
 ## 这个仓库本身就是实例
 本 repo 用自己的方法论维护自身的知识库（`AGENTS.md` + `wiki/`）——即 dogfooding，可直接参考它长什么样。
 
