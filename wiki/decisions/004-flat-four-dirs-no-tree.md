@@ -25,3 +25,4 @@ wiki 内部如何组织？候选：
 - 结构总览：[overview](../architecture/overview.md)
 - loose 页示例：[ab-test-findings](../ab-test-findings.md)
 - 互链依赖扁平结构：[ADR-008](008-interlink-with-markdown-links.md)
+- 评估并放弃的 goals/loop 层（曾考虑加 goals/ 为第 5 目录）：[ADR-009](009-no-goals-loop-layer.md)
