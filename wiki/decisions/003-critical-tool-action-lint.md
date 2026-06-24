@@ -23,3 +23,4 @@
 - 证据：[A/B 测试发现](../ab-test-findings.md)
 - 规则精确性前提：[ADR-007](007-log-trigger-split.md)、[ADR-008](008-interlink-with-markdown-links.md)
 - 架构总览：[overview](../architecture/overview.md)
+- Lint 语义项强化（摘要无状态）：[ADR-010](010-stable-descriptor-index.md)

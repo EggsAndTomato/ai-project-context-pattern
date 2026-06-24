@@ -36,6 +36,7 @@
 | `wiki/decisions/007-log-trigger-split.md` | 拆分 index/log 触发：log 覆盖所有结构/意图变更（非仅新建文件） |
 | `wiki/decisions/008-interlink-with-markdown-links.md` | 文档间用 markdown 链接互链（由 LLM 维护），非 wikilink |
 | `wiki/decisions/009-no-goals-loop-layer.md` | 不采纳 goals/工作循环层：执行归 superpowers，沉淀归现有 Ingest，维持 KB v1.3 工具无关 |
+| `wiki/decisions/010-stable-descriptor-index.md` | index 摘要统一为无状态描述符（不放 bug/决策状态），从源头消灭 index 漂移 |
 
 ### bugs
 | 文件 | 摘要 |

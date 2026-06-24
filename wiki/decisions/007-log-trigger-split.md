@@ -30,3 +30,4 @@
 - 精确性前提：[ADR-003](003-critical-tool-action-lint.md)
 - index 归属：[ADR-002](002-index-in-agents-md.md)
 - 后续互链规则：[ADR-008](008-interlink-with-markdown-links.md)
+- index 触发规则再细化（摘要无状态）：[ADR-010](010-stable-descriptor-index.md)

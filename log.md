@@ -2,6 +2,8 @@
 
 > 结构 / 意图层面的"变了什么 + 为什么"。最新在上。琐碎代码修订走 git。
 
+- 2026-06-24 — 方法论 v1.3→v1.4：**index 摘要统一为无状态描述符**。起因：外部 review dogfooding 试用项目（QAgent）时发现其 index 里 BUG-001 摘要仍写「（未修复）」，而 bug 页/log 早已更新为已修复——index 摘要成了唯一的过时副本。根因：① 原 index 同步规则只覆盖"新增页面"、且「仅此情况追加」反向暗示别动 index；② 摘要复制了页面内的可变状态（违反单一事实源）。修复：方法论第三节加"无状态描述符"约定 + 模板规则扩展为覆盖改名/合并/拆分/删除/主题漂移并删反向暗示、明确"状态翻转不动 index"、§五 Lint 加显式语义项、§九检查清单加一行、§十反模式加 #9；新增 `wiki/decisions/010-stable-descriptor-index.md` 并补 4 处反向链接。理由见 ADR-010。
+
 - 2026-06-22 — 新增 `wiki/decisions/009-no-goals-loop-layer.md`：评估并**放弃** goals/工作循环层。两份根级方案（`ai-project-context-pattern-更改方案.md`、`work-loop-pattern-起草方案.md`）提出加 `goals/` 类目 + 配套 loop 文档；讨论发现执行机制（plan+清单+子代理隔离+验证）与已安装的 superpowers 大面积重复且更弱，loop 独有的仅"续跑指针/沉淀桥/triage"，其中沉淀本属 KB Ingest 职责、续跑指针是 superpowers 自身缺口。决定维持 KB v1.3 不动、不加任何 superpowers 相关规则（保持工具无关、可移植）。理由见 ADR-009。
 
 - 2026-06-20 — 方法论文档加"产物语言跟随用户"规则（顶部 blockquote + 版本 v1.2→v1.3）：所有产物用用户使用的语言生成，文档是中文但产物语言跟随用户、不跟随文档。据此简化 README.en.md 提示词（去掉硬编码的"generate in English"），现在两份 README 提示词完全对称、最简，语言由文档统一规定。已实测验证。

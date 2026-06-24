@@ -33,4 +33,5 @@
 ## 相关
 - 哲学选型：[ADR-001：增量沉淀+持续维护](../decisions/001-compile-once-anti-rag.md)
 - 加载与 index 归属：[ADR-002：index 永驻 AGENTS.md](../decisions/002-index-in-agents-md.md)
+- index 摘要规范：[ADR-010：无状态描述符](../decisions/010-stable-descriptor-index.md)
 - 互链约定：[ADR-008：markdown 链接互链](../decisions/008-interlink-with-markdown-links.md)
